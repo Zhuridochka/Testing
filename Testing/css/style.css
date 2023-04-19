@@ -1,0 +1,134 @@
+
+@import url("reset.css");
+
+body {
+	background-color: #ffff;
+	font-family: arial, sans-serif;
+	
+}
+/*--------------*/
+
+.wrapper {
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+.header {
+}
+.header__conteiner {
+	
+}
+.conteiner {
+	width: 1488px;
+	padding: 0 15px 0 15px;
+	margin: 0 auto;
+}
+.header__rigth {
+	display: flex;
+	align-items: center;	
+}
+.rigth-header {
+	justify-content: flex-end;
+	height: 48px;
+	line-height: normal;
+	color: #3c4043;
+	}
+
+.rigth-header__mail {
+	margin-right: 20px;
+}
+.rigth-header__mail:hover{
+	text-decoration: underline;
+}
+.rigth-header__image {
+}
+.rigth-header__image:hover{
+	text-decoration: underline;
+}
+.page {
+	margin-top: 30px;
+	display: flex;
+}
+.page__conteiner {
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center; */
+}
+.page__image {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+/*--------------------------------*/
+.page__search {
+	display: flex;
+	flex-direction: column;
+}
+.search-page {
+	
+}
+.search-page__entry {
+	display: flex;
+	min-height: 44px;
+	width: 584px;
+	border-radius: 24px;
+	border: 1px solid #dfe1e5;
+	margin: 0 auto;
+}
+
+.search-page__entry:hover{
+	background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.search-page__nav {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	margin-top: 30px;
+}
+
+.search-page__google {
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.search-page__google:hover{
+	border: 1px solid #dadce0;
+	color: #202124;
+}
+
+.search-page__search {
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.search-page__search:hover{
+	border: 1px solid #dadce0;
+	color: #202124;
+}
